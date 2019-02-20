@@ -6,10 +6,79 @@
     <Name>ProjektSales.database</Name>
     <FullPath>ProjektSales.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>FactSalesCube.cube</Name>
+      <FullPath>FactSalesCube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>FactSalesCube.partitions</Name>
+          <FullPath>FactSalesCube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Channel.dim</Name>
+      <FullPath>Dim Channel.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Promotion.dim</Name>
+      <FullPath>Dim Promotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Customer.dim</Name>
+      <FullPath>v Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product.dim</Name>
+      <FullPath>Dim Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Store.dim</Name>
+      <FullPath>Dim Store.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Currency.dim</Name>
+      <FullPath>Dim Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date.dim</Name>
+      <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>ContosoSales.ds</Name>
+      <FullPath>ContosoSales.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Contoso Retail DW.dsv</Name>
+      <FullPath>Contoso Retail DW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>ContosoSales</Id>
+            <Name>ContosoSales</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=PR4IS3;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>ContosoSales</Id>
+            <Name>ContosoSales</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

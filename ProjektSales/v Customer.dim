@@ -1,0 +1,282 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3e18ff70-6755-4bac-9225-d85186dffa5b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>v Customer</ID>
+  <Name>v Customer</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1779" scrolltop="-3889" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7805" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vCustomer" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00006f10000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="olap_vCustomer" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1779</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3889</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="134">
+            <Shape Id="Customer Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="Customer Key" />
+                <Attribute Id="Address Line1" />
+                <Attribute Id="Address Line2" />
+                <Attribute Id="Customer Type" />
+                <Attribute Id="Education" />
+                <Attribute Id="Email Address" />
+                <Attribute Id="Occupation" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="749b672a-53e9-4d37-add9-e3fb9b0219ff">
+    <DataSourceViewID>Contoso Retail DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="3890d3b7-334f-4294-9681-e1bc6cf69ec2">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="7f4497ec-201d-4327-80ee-51362eb2eb38">
+      <ID>Customer Key</ID>
+      <Name>Customer Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2125be9d-ddd7-4475-bdf6-76d0d76b6942">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a76f20e-2e37-4f03-a387-56da80ff9497">
+            <TableID>olap_vCustomer</TableID>
+            <ColumnID>CustomerKey</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="8ba95493-847d-400d-8486-e6c9b02df42c">
+          <DataType>WChar</DataType>
+          <DataSize>101</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6744e9f-c1c6-4b1c-ae0a-14b2c7499215">
+            <TableID>olap_vCustomer</TableID>
+            <ColumnID>CustomerFullName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e591ffae-f378-4676-be64-a04a41ac75f4">
+        <DataType>WChar</DataType>
+        <DataSize>101</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c55137a2-df1e-4485-a3ed-78f5571b314c">
+          <TableID>olap_vCustomer</TableID>
+          <ColumnID>CustomerFullName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1909faa9-5603-4d56-bc03-e5b52f235b3f">
+          <AttributeID>Email Address</AttributeID>
+          <Name>Email Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f8c9e93b-c475-4fd1-9c02-7ec36d24d849">
+          <AttributeID>Education</AttributeID>
+          <Name>Education</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="949e363e-bd96-4f26-833a-1973b0574c35">
+          <AttributeID>Occupation</AttributeID>
+          <Name>Occupation</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6fe9d70-37d2-42ff-8af3-bc0664fc2de7">
+          <AttributeID>Address Line1</AttributeID>
+          <Name>Address Line1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="849811f4-896b-4a0c-806d-1bec733cf656">
+          <AttributeID>Address Line2</AttributeID>
+          <Name>Address Line2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d0e15a14-1a8c-44a8-936c-82cfdf4ac5cc">
+          <AttributeID>Customer Type</AttributeID>
+          <Name>Customer Type</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="46b86eb7-b48c-402b-aa59-a49b70a68b32">
+      <ID>Email Address</ID>
+      <Name>Email Address</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aca412da-544e-4b80-849c-94a26166bcc6">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="186cf82f-0c8e-4508-b885-9cab63a62cf8">
+            <TableID>olap_vCustomer</TableID>
+            <ColumnID>EmailAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="2debff9c-d435-4d40-9ef2-40236b05f938">
+          <Language>1045</Language>
+          <Caption>adres email</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3ef9caa2-fd6b-4f5c-afce-1adb7e91fcb1">
+      <ID>Education</ID>
+      <Name>Education</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0762afd5-e702-4ae0-87ad-207ae1a7e920">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16e062ea-be34-42b6-90d1-ff2e273cde83">
+            <TableID>olap_vCustomer</TableID>
+            <ColumnID>Education</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="b5f78fe8-c5c0-401c-b982-de27c5911959">
+          <Language>1045</Language>
+          <Caption>edukacja</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3bf65d95-bcd0-44a2-a033-a64dfee2d189">
+      <ID>Occupation</ID>
+      <Name>Occupation</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="29eff309-4567-43d7-9d66-5ea411588875">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9908145-aaf8-4949-87ef-a5c39f3c381f">
+            <TableID>olap_vCustomer</TableID>
+            <ColumnID>Occupation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="90b816f8-8441-49e6-abf5-3818fe6b310c">
+      <ID>Address Line1</ID>
+      <Name>Address Line1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bacc1746-eeec-4c28-bd2a-b9c2ea6b99c1">
+          <DataType>WChar</DataType>
+          <DataSize>120</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="365786e7-5bdd-4579-9a08-235117784f74">
+            <TableID>olap_vCustomer</TableID>
+            <ColumnID>AddressLine1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="44abd29b-bc45-4cb8-a6c6-b402c3925af7">
+          <Language>1045</Language>
+          <Caption>adres</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5672e1ca-c8da-495c-b33f-58fd207e1656">
+      <ID>Address Line2</ID>
+      <Name>Address Line2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f923a418-1994-441c-9e33-7ac21fbc45fa">
+          <DataType>WChar</DataType>
+          <DataSize>120</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7401593a-c3b8-4386-83b2-5a53f2a53873">
+            <TableID>olap_vCustomer</TableID>
+            <ColumnID>AddressLine2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="897eea35-7783-492a-99c1-e3ad594a4c86">
+      <ID>Customer Type</ID>
+      <Name>Customer Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="80347caa-ecad-4b76-bddf-42cd301c7e0e">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3a9b7a0-58b8-4b72-82d5-29386cc08cdb">
+            <TableID>olap_vCustomer</TableID>
+            <ColumnID>CustomerType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
